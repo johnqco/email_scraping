@@ -52,9 +52,10 @@ for email in email_addresses:
 # print the email addresses
 print(email_addresses_no_duplicates)
 
+# create an outpout text file and save it in the program folder
 email_txt = open("emails.txt", "w")
 for i in email_addresses_no_duplicates:
-    email_txt.write("\n"+i)
+    email_txt.write(i+"\n")
 email_txt.close()
 
 # close the web driver
