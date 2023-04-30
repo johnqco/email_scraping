@@ -8,7 +8,7 @@ import re
 
 
 # configure the webdriver
-binary = FirefoxBinary(r'C:\Program Files\Firefox Developer Edition\firefox.exe')
+binary = FirefoxBinary(r'C:\Program Files\Firefox Developer Edition\firefox.exe')       #This specifies the firefox.exe path. 
 driver = webdriver.Firefox(firefox_binary=binary)
 
 # navigate to Google search page
